@@ -12,7 +12,7 @@
 # print(my_range(5, 1, -1))  
 
 
-def my_range(start, stop, step=1):
+def my_range(start=0, stop, step=1):
     numbers = []
     if step == 0:
         raise ValueError("Step cannot be zero")
