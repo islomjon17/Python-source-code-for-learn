@@ -22,8 +22,8 @@ class Cars:
     def __lt__(self,y):
         return self.price==u.price
         
-# car1 = Cars("BYD", "Song plus", "Black", 2023, 50000)
-# print(car1)
+car1 = Cars("BYD", "Song plus", "Black", 2023, 50000)
+print(car1)
 
 
 car1 = Cars("BYD", "Song plus", "Black", 2023, 50000)
